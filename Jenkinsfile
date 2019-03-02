@@ -12,7 +12,7 @@ node
     }
     stage('Build')
     {
-        echo 'Building stage'
+        build 'Demo_maven'
     }
     stage('Unit testing')
     {
